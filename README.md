@@ -4,6 +4,14 @@
 1. カレンダーに次のイベント日時を表示
 1. 公式()ツイッターを表示
 
-## 構築案
-### インフラ
-AWSを使用
+## Build Plan
+#### Infra
+ - using AWS
+
+#### Tools
+ - using wordpress
+
+#### Test Period
+ - 3 Months
+
+ 

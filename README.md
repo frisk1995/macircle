@@ -3,6 +3,8 @@
 1. ベースはwordpressを使用
 1. カレンダーに次のイベント日時を表示
 1. 公式()ツイッターを表示
+1. tablepressを使う
+
 
 ## Build Plan
 #### Infra
@@ -14,4 +16,5 @@
 #### Test Period
  - 3 Months
 
- 
+
+

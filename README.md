@@ -5,16 +5,17 @@
 1. 公式()ツイッターを表示
 1. tablepressを使う
 1. 掲示板でバンドメンバー募集（bbpress）
+1. 次回イベントの参加者管理 # 鬼門
+ → どのように管理するか
 
-
-## Build Plan
+## 構築設計
 #### Infra
- - using AWS
+ - AWS EC2
 
 #### Tools
  - using wordpress
 
-#### Test Period
+#### 試用期間
  - 3 Months
 
 

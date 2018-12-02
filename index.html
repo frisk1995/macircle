@@ -1,18 +1,23 @@
 <html>
 <head><title>input.html</title></head>
 <body>
-入力フォームです。
-名前を入力してみましょう。
 <form action="output.php" method="post">
   <table border="1">
     <tr>
       <td>名前</td>
       <td><input type="text" name="name"></td>
+    </tr>
+    <tr>
+      <td>パート</td>
+      <td><input type="checkbox" name="lead" value="1">リードギター</td>
+      <td><input type="checkbox" name="rhythm" value="2">リズムギター</td>
+      <td><input type="checkbox" name="drum" value="3">ドラム</td>
+      <td><input type="checkbox" name="bass" value="4">ベース</td>
       <td colspan="2" align="center">
-        <input type="submit" value="入力">
       </td>
     </tr>
   </table>
+<input type="submit" value="入力">
 </form>
 </body>
 </html>

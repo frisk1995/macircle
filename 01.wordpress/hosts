@@ -1,0 +1,8 @@
+[default]
+127.0.0.1
+
+[all:vars]
+ansible_ssh_port=22
+ansible_ssh_user=toshiki
+ansible_ssh_pass=
+nasible_sudo_pass=

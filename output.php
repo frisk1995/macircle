@@ -14,10 +14,10 @@
   print ("次のデータを受け取りました<br />");
   print ("名前：$name<br />");
   print ("パート<br />")
-/*
   if(isset($vocal)){
     print ("ボーカル<br />")
   }
+/*
   if(isset($gtvocal)){
     print ("ギターボーカル<br />")
   }

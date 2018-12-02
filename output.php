@@ -13,28 +13,27 @@
 
   print ("次のデータを受け取りました<br />");
   print ("名前：$name<br />");
-  print ("パート<br />")
+  print ("パート<br />");
   if($vocal){
-    print ("ボーカル<br />")
+    print ("ボーカル<br />");
   }
-/*
-  if(isset($gtvocal)){
-    print ("ギターボーカル<br />")
+  if($gtvocal){
+    print ("ギターボーカル<br />");
   }
-  if(isset($lead)){
-    print ("リードギター<br />")
+  if($lead){
+    print ("リードギター<br />");
   }
-  if(isset($rhythm)){
-    print ("リズムギター<br />")
+  if($rhythm){
+    print ("リズムギター<br />");
   }
-  if(isset($drum)){
-    print ("ドラム<br />")
+  if($drum){
+    print ("ドラム<br />");
   }
-  if(isset($bass)){
-    print ("ベース<br />")
+  if($bass){
+    print ("ベース<br />");
   }
-  if(isset($key)){
-    print ("キーボード<br />")
+  if($key){
+    print ("キーボード<br />");
   }
 */
 ?>

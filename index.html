@@ -2,15 +2,19 @@
 <head><title>input.html</title></head>
 <body>
 <form action="output.php" method="post">
-名前
+名前<br/>
 <input type="text" name="name">
-パート
-<input type="checkbox" name="vocal" value="1">ボーカル
-<input type="checkbox" name="gtvocal" value="1">ギターボーカル
-<input type="checkbox" name="lead" value="1">リードギター
-<input type="checkbox" name="rhythm" value="1">リズムギター
-<input type="checkbox" name="drum" value="1">ドラム
-<input type="checkbox" name="bass" value="1">ベース
+<br/>
+パート<br/>
+<ul>
+<li><input type="checkbox" name="vocal" value="1">ボーカル</li>
+<li><input type="checkbox" name="gtvocal" value="1">ギターボーカル</li>
+<li><input type="checkbox" name="lead" value="1">リードギター</li>
+<li><input type="checkbox" name="rhythm" value="1">リズムギター</li>
+<li><input type="checkbox" name="drum" value="1">ドラム</li>
+<li><input type="checkbox" name="bass" value="1">ベース</li>
+<li><input type="checkbox" name="key" value="1">キーボード</li>
+</ul>
 <input type="submit" value="入力">
 </form>
 </body>

@@ -35,7 +35,6 @@
   if($key){
     print ("キーボード<br />");
   }
-*/
 ?>
 </body>
 </html>

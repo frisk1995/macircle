@@ -1,6 +1,6 @@
 <?php
-if(isset($_POST[‘comment’])){
-  $comment = $_POST[‘comment’];
+if(isset($_GET[‘comment’])){
+  $comment = $_GET[‘comment’];
   echo $comment;
 }
 ?>

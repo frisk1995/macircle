@@ -31,3 +31,11 @@
 #### タスク管理
  - ドメインをとる(優先)
  - template内容構成Fix
+
+
+## memo
+#### 20181204 追記
+ - linebotはきつそう
+ - DB構成作ってPHPとHTMLで書くのが無難かも
+ - スマホページのみ作る？
+ - bootstrapstudioを使ってみる

@@ -1,0 +1,50 @@
+create database part;
+create database title;
+
+
+
+
+create table part(
+partId int(5) auto_increment primary key,
+part varchar(255) not null
+);
+
+create table music(
+titleId int(5) auto_increment primary key,
+title varchar(255) not null
+);
+
+create table main(
+id int(5) auto_increment primary key,
+date datetime,
+titleId int(5) not null,
+name varchar(255) not null,
+partId int(5) not null,
+foreign key(titleId) references music(titleId),
+foreign key(partId) references music(partId)
+);
+
+
+
+MariaDB [(none)]> show variables like 'char%';
+
+[root@n54l ~]# cat /etc/my.cnf.d/server.cnf
+[server]
+character-set-server = utf8
+
+[mysqld]
+character-set-server = utf8mb4
+plugin-load = handlersocket.so
+
+
+MariaDB [(none)]> show variables like 'char%';
+
+
+[root@n54l ~]# cat /etc/my.cnf.d/server.cnf 
+
+MariaDB [(none)]> show variables like 'char%';
+
+MariaDB [encode]> ALTER DATABASE encode DEFAULT CHARACTER SET utf8mb4;
+
+
+MariaDB [(none)]> show variables like 'char%';

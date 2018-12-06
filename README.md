@@ -1,3 +1,17 @@
+## memo
+### 20181206 追記
+ - linebotで行けそう
+#### Tasks
+ - データの出力方法
+ - データの入力方法
+ - 
+
+### 20181204 追記
+ - linebotはきつそう
+ - DB構成作ってPHPとHTMLで書くのが無難かも
+ - スマホページのみ作る？
+ - bootstrapstudioを使ってみる
+
 # macircle
 ## 設計案
 1. ベースはwordpressを使用
@@ -31,11 +45,3 @@
 #### タスク管理
  - ドメインをとる(優先)
  - template内容構成Fix
-
-
-## memo
-#### 20181204 追記
- - linebotはきつそう
- - DB構成作ってPHPとHTMLで書くのが無難かも
- - スマホページのみ作る？
- - bootstrapstudioを使ってみる
